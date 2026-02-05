@@ -6,8 +6,10 @@ import { Outlet } from 'react-router';
 const MainLayout = () => {
     return (
         <div>
+            
             <Navbar></Navbar>
-            <div className='min-h-[calc(100vh-289px)]'>
+        
+            <div className='min-h-[calc(100vh-289px)] w-10/12 mx-auto mt-10'>
             <Outlet></Outlet>
             </div>
             <Footer></Footer>
