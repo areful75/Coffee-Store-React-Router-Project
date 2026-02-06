@@ -5,14 +5,14 @@ const Navbar = () => {
 
     const links = <>
    <Link to="/"><li className='m-2'>Home</li></Link>   
-    <Link to="/coffee"><li className='m-2'>Coffee</li></Link>
+    <Link to="/coffees"><li className='m-2'>Coffee</li></Link>
     <Link to="/dashboard"><li className='m-2'>Dashboard</li></Link>
 
    
     
     </>
     return (
-        <div className="navbar bg-base-100">
+        <div className="navbar backdrop-blur-xl bg-white/30 z-50 fixed px-13 ">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

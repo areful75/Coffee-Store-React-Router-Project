@@ -8,16 +8,11 @@ function App() {
 
   return (
     <>
-      <h1>Hello</h1>
-
-      <div className="avatar">
-  <div className="w-24 rounded">
-    <img src="https://img.daisyui.com/images/profile/demo/batperson@192.webp" />
-  </div>
+     <div role="tablist" className="tabs tabs-lift w-full">
+  <a role="tab" className="tab">Tab 1</a>
+  <a role="tab" className="tab tab-active">Tab 2</a>
+  <a role="tab" className="tab">Tab 3</a>
 </div>
-
-<button className='btn btn-primary'>hi</button>
-     
     </>
   )
 }

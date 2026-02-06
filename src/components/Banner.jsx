@@ -5,7 +5,7 @@ const Banner = () => {
         <div style={{backgroundImage: `url(${bannerImg})`,
         backgroundSize: 'cover',
        // backgroundPosition: 'center',
-        backgroundRepeat: 'no-repeat',}} className="hero bg-base-200 h-[600px]">
+        backgroundRepeat: 'no-repeat',}} className=" rounded-2xl hero bg-base-200 h-[600px]">
  
 </div>
     );
